@@ -50,7 +50,7 @@ namespace SQLite_
                 TextColor = Color.Red,
             };
             layout.Children.Add(Insert);
-            Insert.Clicked += InsertClicked;//
+            Insert.Clicked += InsertClicked;
 
             //--------------------------------deleteします------------------------------
             var Delete = new Button
